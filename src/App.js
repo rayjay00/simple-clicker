@@ -33,7 +33,7 @@ class App extends Component {
     `;
     return (
       <div className="App">
-        <h2>Simple Clicker</h2>
+        <h2>Border Radius Clicker</h2>
         <button onClick={this.handleClick.bind(this)}>Click Me!</button>
         <p>Border Radius: {this.state.count}px</p>
         <button onClick={this.handleReset.bind(this)}>Reset</button>
